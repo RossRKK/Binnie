@@ -25,7 +25,7 @@ public class ModuleGenetics implements IInitializable {
 		ExtraBees.dictionary = new ItemDictionary();
 		ExtraBees.proxy.registerItem(ExtraBees.dictionary);
 		GameRegistry.register(ExtraBees.ectoplasm = new BlockEctoplasm());
-		GameRegistry.register(new ItemBlock(ExtraBees.ectoplasm).setRegistryName(ExtraBees.ectoplasm.getRegistryName()));
+		GameRegistry.register(new ItemBlock(ExtraBees.ectoplasm).setRegistryName("ectoplasm"));
 	}
 
 	@Override
